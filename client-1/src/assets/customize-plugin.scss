@@ -1,0 +1,39 @@
+.display-store-plugin {
+  min-width: 130px;
+  width: 100%;
+  margin: 0;
+  .tooltip {
+    margin-top: 1px;
+  }
+  label {
+    margin: 0 30px 15px 0!important;
+    cursor: pointer;
+  }
+}
+
+.Polaris-ChoiceList__Choices {
+  display: inline-flex;
+}
+
+.vertical-indent {
+  .customize {
+    margin-left: 0!important;
+    width: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
+
+.block-alignment {
+  label {
+    margin: 0 30px 15px 0!important;
+    cursor: pointer;
+  }
+}
+
+.display-mode {
+  label {
+    margin: 0 30px 15px 0!important;
+    cursor: pointer;
+  }
+}

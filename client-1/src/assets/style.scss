@@ -1,0 +1,103 @@
+.charity-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  .Polaris-Stack--vertical {
+    width: 100%;
+  }
+  .Polaris-Tag {
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    .Polaris-Tag__TagText {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  .tag-label {
+    display: flex;
+    flex: 1;
+    .tag-prefix {
+      display: inline;
+      margin-right: 10px;
+    }
+  }
+  .Polaris-Badge--statusNew {
+    background-color: #f9fafb;
+    color: #454f5b;
+    font-weight: 500;
+    border: 1px solid #454f5b;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+  .autocomplete-wrapper {
+    display: flex;
+    align-items: center;
+    div[role="combobox"] {
+      width: 100%;
+      margin-right: 15px;
+      outline: none;
+    }
+    .Polaris-Button {
+      height: 22px;
+      padding: 0 25px;
+      flex-basis: 200px;
+    }
+  }
+}
+
+.save-charity-warning {
+  margin-top: 20px;
+}
+
+.campaign-block-title {
+  border-bottom: 1px solid #dfe3e8;
+  border-top: 1px solid #dfe3e8;
+  width: 100%;
+  display: flex;
+  margin-top: 43px;
+  justify-content: space-between;
+
+  h1 {
+    color: #212b36;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .Polaris-Link {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.select-product-radiobutton-label {
+  display: flex;
+  .tooltip {
+    padding-left: 4px;
+  }
+}
+
+.selected-products-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customize {
+  margin: 5px auto 25px;
+  word-wrap: break-word;
+}
+
+.footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: .1rem solid #dfe3e8;
+  padding: 2rem 25px 25px;
+  color: #637381;
+}

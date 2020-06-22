@@ -1,0 +1,32 @@
+.connection-block {
+  width: 100%;
+  border-top: .1rem solid #dfe3e8;
+  margin-top: 2rem;
+  .selection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .Polaris-ChoiceList {
+      .Polaris-ChoiceList__Choices {
+        display: block;
+        li {
+          position: relative;
+          padding-right: 120px;
+        }
+      }
+      .btn-container {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        .preview-button-container {
+          margin-bottom: 10px;
+          display: flex;
+          position: relative;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

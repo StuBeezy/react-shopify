@@ -1,0 +1,177 @@
+.reporting-container {
+  min-height: 400px;
+  padding: 50px 50px 0 40px;
+  width: 100%;
+  .select-campaign-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe3e8;
+    margin-left: 20px;
+    justify-content: space-between;
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      padding-left: 14px;
+    }
+    .select-campaign {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 9px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      h4 {
+        font-size: 14px;
+        padding-right: 5px;
+      }
+      .Polaris-Select {
+        width: 170px !important;
+      }
+    }
+  }
+  .top-section-wrapper {
+    border-left: 1px solid #dfe3e8;
+    border-bottom: 1px solid #dfe3e8;
+    border-right: 1px solid #dfe3e8;
+    margin-left: 20px!important;
+    padding: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+    justify-content: center;
+    margin: 0 auto;
+    >div {
+      margin-top: 0;
+    }
+    :first-child {
+      margin-left: 0 !important;
+    }
+    .Polaris-Layout__Section--secondary {
+      max-width: 240px;
+      &:first-child {
+        order: 5;
+      }
+      &:nth-child(2) {
+        order: 4;
+      }
+      &:nth-child(3) {
+        order: 3;
+      }
+      &:nth-child(4) {
+        order: 1;
+      }
+      .block-container {
+        .Polaris-Card {
+          position: relative;
+          height: 201px;
+          .Polaris-Card__Header {
+            padding-top: 26px!important;
+            min-height: 74px!important;
+            display: flex;
+            justify-content: center;
+            h2 {
+              color: #637381;
+              font-size: 16px;
+              max-width: 139px!important;
+              text-align: center;
+            }
+          }
+          .Polaris-Card__Section {
+            padding-top: 16px!important;
+            padding-left: 25px!important;
+            padding-right: 25px!important;
+            .main-title {
+              font-size: 26px;
+              padding-top: 12px!important;
+              font-weight: 700;
+              text-align: center;
+            }
+            .sub-title {
+              padding-top: 26px;
+              color: #637381;
+              font-size: 12px;
+              bottom: 10px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .chart-container {
+    margin: 20px 18px 20px 36px;
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 21px;
+      margin-left: 20px;
+    }
+    .chart-container-card {
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-right: 30px;
+      .chart-legend {
+        align-items: flex-end;
+        justify-content: flex-end;
+        display: flex;
+        list-style-type: none;
+        &:last-child {
+          padding-right: 0;
+        }
+        .chart-legend-item {
+          cursor: pointer;
+          text-decoration: none;
+          padding: 0 10px;
+          display: flex;
+          span {
+            margin-top: -3px;
+          }
+          .point {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            margin-right: 4px;
+          }
+          .disclude {
+            text-decoration: line-through;
+          }
+        }
+      }
+    }
+  }
+}
+
+ /*Custom Chart Tooltip*/
+.custom-tooltip {
+  display: flex;
+  flex-direction: column;
+  background-color: #212b36;
+  padding: 7px;
+  color: #fff;
+  border-radius: 3px;
+  .label {
+    text-align: center;
+  }
+  .values {
+    display: flex;
+    margin-top: 8px;
+    .values-block {
+      display: flex;
+      margin-top: 5px;
+      .rectangle {
+        width: 16px;
+        height: 16px;
+        border-radius: 3px;
+        margin-right: 4px;
+        margin-left: 4px
+      }
+      .text {
+        font-size: 15px;
+        margin-top: -3px
+      }
+    }
+  }
+}
